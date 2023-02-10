@@ -19,7 +19,8 @@ There is no "uninstall" defined (yet).
 1. Create a new virtual machine in Qubes
 2. Download the installation script (it is self-contained)
 3. Run the installation script
-4. Run `nix --version` to verify that nix is installed
+4. Run `source ${HOME}/.profile` to load the environment
+5. Run `nix --version` to verify that nix is installed
 
 ## Contributing
 

@@ -23,6 +23,3 @@ curl --proto '=https' --tlsv1.2 "${nix_install_src}" -o "nix-installer-${nix_ver
 chmod u+x nix-installer-${nix_version}.sh
 ./nix-installer-${nix_version}.sh \
 	--no-daemon
-
-# shellcheck source=/dev/null
-source "${HOME}/.profile"
